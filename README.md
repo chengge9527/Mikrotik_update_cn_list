@@ -1,6 +1,6 @@
 # Routeros脚本(ipv4)
 
-    /tool fetch url=https://raw.githubusercontent.com/chengge9527/Mikrotik-CN/refs/heads/main/cn_ip_list/CN
+    /tool fetch url=https://raw.githubusercontent.com/chengge9527/Mikrotik_update_cn_list/refs/heads/main/cn_ip_list/CN
     /system logging disable 0
     /import file-name=CN
     /system logging enable 0
