@@ -24,7 +24,7 @@ jobs:
       run: pip install requests
       
     - name: Run update script
-      run: python scripts/update_cn_list.py
+      run: python scripts/ADGuard_Home_AD_list.py
       
     - name: Commit and push changes
       uses: stefanzweifel/git-auto-commit-action@v5
