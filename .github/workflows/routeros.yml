@@ -34,7 +34,7 @@ jobs:
           routing_table = "main"
 
           template = (
-              "add comment=tg disabled=no distance=1 dst-address={dst} "
+              "add comment=------TG------ disabled=no distance=1 dst-address={dst} "
               f"gateway={gateway} routing-table={routing_table} "
               "scope=30 suppress-hw-offload=no target-scope=10"
           )
@@ -47,7 +47,7 @@ jobs:
               if ":" not in line:  # 只处理 IPv4
                   routes.append(template.format(dst=line))
 
-          with open("routes.rsc", "w") as f:
+          with open("TG-Routes.rsc", "w") as f:
               f.write("/ip route\n")
               for r in routes:
                   f.write(r + "\n")
@@ -58,5 +58,5 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add routes.rsc
-          git commit -m "Update routes.rsc"
+          git commit -m "Update TG-Routes.rsc"
           git push
