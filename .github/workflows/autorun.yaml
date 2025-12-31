@@ -1,7 +1,7 @@
 name: Update China IP List
 
 on:
-  schedule:
+ # schedule:
     # 每天凌晨3点运行 (UTC时间)
    # - cron: '0 3 * * *'
   # 允许手动触发
