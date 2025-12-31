@@ -6,4 +6,4 @@ add comment=tg-routes disabled=no distance=1 dst-address=91.108.16.0/21 gateway=
 add comment=tg-routes disabled=no distance=1 dst-address=91.108.56.0/22 gateway=192.168.1.12 routing-table=main scope=30 suppress-hw-offload=no target-scope=10
 add comment=tg-routes disabled=no distance=1 dst-address=95.161.64.0/20 gateway=192.168.1.12 routing-table=main scope=30 suppress-hw-offload=no target-scope=10
 add comment=tg-routes disabled=no distance=1 dst-address=149.154.160.0/20 gateway=192.168.1.12 routing-table=main scope=30 suppress-hw-offload=no target-scope=10
-add comment=tg-routes disabled=no distance=1 dst-address=185.76.151.0/24 gateway=192.168.1.12 routing-table=main scope=30 suppress-hw-offload=no target-scope=101
+add comment=tg-routes disabled=no distance=1 dst-address=185.76.151.0/24 gateway=192.168.1.12 routing-table=main scope=30 suppress-hw-offload=no target-scope=10
