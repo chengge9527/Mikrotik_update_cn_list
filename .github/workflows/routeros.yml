@@ -2,8 +2,8 @@ name: Generate RouterOS Routes
 
 on:
   workflow_dispatch:   # 手动触发
-  schedule:
-    - cron: "0 2 * * *"   # 每天凌晨 2 点自动运行
+#  schedule:
+#    - cron: "0 2 * * *"   # 每天凌晨 2 点自动运行
 
 jobs:
   build:
